@@ -3,6 +3,7 @@ const errorHandler = require("./middleware/errorHandler");
 const connectDb = require("./config/dbConnection");
 const { connect } = require("mongoose");
 require("dotenv").config();
+// require('@dotenvx/dotenvx').config();
 // const cors = require('cors');
 
 connectDb();
